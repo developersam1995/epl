@@ -1,0 +1,62 @@
+.theme-color{
+    background-color:#37003c;
+    color: aliceblue;
+}
+
+li a:hover {
+   color: hsl(210, 100%, 80%); 
+}
+
+#news img{
+    width: 278px;
+    height: 185px;
+    float: left;
+    padding-right: 20px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.whitespace{
+    height: 20px;
+}
+
+.news-element{
+ 
+    margin-top: 15px;
+}
+
+.news-element a{
+    text-decoration: none;
+    color: black;
+}
+
+.news-element p{
+    font-size: 18px;
+    
+}
+
+
+header{
+    font-size: 30px;
+}
+footer{
+    margin-top: 20px;
+    height: 40px;
+   
+}
+
+.column{
+    margin-top: 20px;
+}
+.column-left{
+    float: left;
+    width: 50%;
+    border-right: 1px solid #000000;
+}
+
+.column-heading{
+    text-align: center;
+    text-decoration: underline;
+}
