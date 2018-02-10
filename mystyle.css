@@ -11,7 +11,7 @@ li a:hover {
     width: 278px;
     height: 185px;
     float: left;
-    padding-right: 20px;
+    padding: 0px 20px;
 }
 
 .clearfix{
@@ -34,12 +34,13 @@ li a:hover {
 
 .news-element p{
     font-size: 18px;
-    
+    text-align: justify;
+    padding-right: 10px;    
 }
 
 
 header{
-    font-size: 30px;
+    font-size: 4vh;
 }
 footer{
     margin-top: 20px;
@@ -47,16 +48,25 @@ footer{
    
 }
 
-.column{
-    margin-top: 20px;
-}
-.column-left{
-    float: left;
-    width: 50%;
-    border-right: 1px solid #000000;
+table{
+    margin: 20px auto;
 }
 
-.column-heading{
+th{
+    font-size: 3vh;
     text-align: center;
-    text-decoration: underline;
+    padding: 1vw 3vw;
+}
+td{
+    text-align: center;
+    padding: 0.6vw 2.8vw;
+}
+
+
+
+
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+table {
+    border: 1px solid #ccc;
 }
